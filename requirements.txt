@@ -4,4 +4,5 @@
 
 azure-functions
 azure-data-tables
-zabbix-api
+py-zabbix
+pytz
