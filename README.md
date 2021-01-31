@@ -1,7 +1,12 @@
 ![Hacka_13 build](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/workflows/Deplpy%20Hacka13%20Api/badge.svg)
 
 # XP Hackathon <small>Team 13</small>
+
 ## Motivação
+O objetivo deste projeto é automatizar o processo abertura de janela de manutenção no Zabbix, tengo como gatilho a aprovação de uma gmud no ServiceNow.
+
+<img src="https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/blob/main/Diagram/TechDay.png" alt="drawing" width="1000"/>
+
 ## Getting started
 ### Desenvolvimento
 Para o desenvolvimento existem os seguintes requerimentos:
@@ -65,9 +70,3 @@ Essa collection substitui o ServiceNow, de maneira que nos permite testar o cód
 <br>
 
 Este repositório tem o intuito de disponibilizar um MVP para o <b>Hackathon da XP Tech</b>, auxiliando nos problemas apresentados pela área de central de operações de rede (NOC)
-
-<br>
-
-## Proposal Diagram
-
-<img src="https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/blob/main/Diagram/TechDay.png" alt="drawing" width="1000"/>
