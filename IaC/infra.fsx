@@ -7,6 +7,7 @@ let hacka13HubConnector = functions {
     name "azfhacka13"
     storage_account_name "azsahacka13"
     use_runtime FunctionsRuntime.Python
+    operating_system OS.Linux
 }
 
 let template = arm {
@@ -15,4 +16,4 @@ let template = arm {
 }
 
 template
-|> Writer.quickWrite @"azf-deploy"
+|> Writer.quickWrite @"azuredeploy"
