@@ -14,6 +14,10 @@ Para o desenvolvimento existem os seguintes requerimentos:
 
 >É recomendado instalar as extensões sugeridas pelo VS Code ao iniciar o projeto
 
+A imagem abaixo ilustra o fluxo de desenvolvimento
+
+<img src="https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/blob/main/Diagram/hacka13_dev_flow.svg" alt="drawing" width="1000"/>
+
 ### Como desenvolver
 1. Baixe o projeto para seu computador
 
