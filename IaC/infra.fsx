@@ -15,4 +15,4 @@ let template = arm {
 }
 
 template
-|> Writer.quickWrite @"azf-deploy"
+|> Writer.quickWrite @"azuredeploy"
