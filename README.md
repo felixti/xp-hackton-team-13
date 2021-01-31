@@ -1,3 +1,5 @@
+![Hacka_13 build](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/workflows/Deplpy%20Hacka13%20Api/badge.svg)
+
 # XP Hackathon <small>Team 13</small>
 <br>
 
