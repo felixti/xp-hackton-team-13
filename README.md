@@ -67,6 +67,7 @@ Existe uma collection que pode ser importada para dentro da ferramenta Postman: 
 Essa collection substitui o ServiceNow, de maneira que nos permite testar o código de uma maneira mais simples sem depender de uma instância do ServiceNow corretamente configurada e rodando. Essa chamada basicamente simula o evento de "mudança aprovada" que é o gatilho para a criação da janela de manutenção no Zabbix.
 
 >Devido as limitações de segurança e permissionamento em máquinas onde usário não possui privilégios elevados não conseguimos integrar o sandbox do service now com a api em desenvolvimento local, pois o ServiceNow necessita de uma url para o seu webhook. Infelizmente o uso de ferramentas que favorecem este teste são bloqueados (ngrok, localtunnel).
-<br>
 
-Este repositório tem o intuito de disponibilizar um MVP para o <b>Hackathon da XP Tech</b>, auxiliando nos problemas apresentados pela área de central de operações de rede (NOC)
+
+### Configuração da instância do ServiceNow
+Visite nossa [wiki](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/wiki) para saber mais sobre detalhes de implementação e como configurar sua instância do ServiceNow.
