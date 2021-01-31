@@ -1,6 +1,7 @@
 ![Hacka_13 build](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/workflows/Deplpy%20Hacka13%20Api/badge.svg)
 
 # XP Hackathon <small>Team 13</small>
+![Hacka_13 build](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/tree/main/Diagram/logo.png)
 
 ## Motivação
 O objetivo deste projeto é automatizar o processo abertura de janela de manutenção no Zabbix, tendo como gatilho a aprovação de uma gmud no ServiceNow.
