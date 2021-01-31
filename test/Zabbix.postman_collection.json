@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "a35773f2-3e22-484c-b40f-08ac5d9d5b4f",
+		"name": "Zabbix",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Maintenence",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"jsonrpc\": \"2.0\",\r\n    \"method\": \"maintenance.get\",\r\n    \"params\": {\r\n        \"search\": {\r\n            \"name\": \"\"\r\n        },\r\n        \"output\": \"extend\",\r\n        \"select_hosts\": \"refer\",\r\n        \"select_groups\": \"refer\",\r\n        \"limit\": 2\r\n    },\r\n    \"auth\": \"c9e99e94d8110883145497ee84d6a755\",\r\n    \"id\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://opti.xpinc.io/zabbix-hml/api_jsonrpc.php",
+					"protocol": "https",
+					"host": [
+						"opti",
+						"xpinc",
+						"io"
+					],
+					"path": [
+						"zabbix-hml",
+						"api_jsonrpc.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"jsonrpc\": \"2.0\",\r\n   \"method\": \"user.login\",\r\n   \"params\": {\r\n      \"user\": \"U002142\",\r\n      \"password\": \"\"\r\n   },\r\n   \"id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://opti.xpinc.io/zabbix-hml/api_jsonrpc.php",
+					"protocol": "https",
+					"host": [
+						"opti",
+						"xpinc",
+						"io"
+					],
+					"path": [
+						"zabbix-hml",
+						"api_jsonrpc.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
