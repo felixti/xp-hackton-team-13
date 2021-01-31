@@ -3,7 +3,7 @@
 # XP Hackathon <small>Team 13</small>
 
 ## Motivação
-O objetivo deste projeto é automatizar o processo abertura de janela de manutenção no Zabbix, tengo como gatilho a aprovação de uma gmud no ServiceNow.
+O objetivo deste projeto é automatizar o processo abertura de janela de manutenção no Zabbix, tendo como gatilho a aprovação de uma gmud no ServiceNow.
 
 <img src="https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/blob/main/Diagram/TechDay.png" alt="drawing" width="1000"/>
 
