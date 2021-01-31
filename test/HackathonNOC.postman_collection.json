@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "bdeaa301-e7dc-41e3-9b6d-3fe79de9c562",
+		"name": "HackathonNOC",
+		"description": "Coleção contendo as requisições para api do time 13 -> Hacka13",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Registra janela de manutenção",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"change_number\": \"CHG000874\",\n    \"configuration_item\": \"azhhackaton13\",\n    \"short_description\": \"Atualização de Sistema Operacional\",\n    \"planned_start_date\": \"2021-01-31 22:00:00\",\n    \"planned_end_date\": \"2021-01-31 23:00:00\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/Hacka13HubConnector",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Hacka13HubConnector"
+					]
+				},
+				"description": "Requisição que recebe informações para registro de janela de manutenção de hosts no Zabbix"
+			},
+			"response": []
+		}
+	]
+}
