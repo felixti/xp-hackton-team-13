@@ -1,9 +1,9 @@
 import logging
 import os
 import datetime as dt
-from pytz import timezone
 import azure.functions as func
 from azure.data.tables import TableServiceClient
+from pytz import timezone
 
 try:
     from pyzabbix.api import ZabbixAPI

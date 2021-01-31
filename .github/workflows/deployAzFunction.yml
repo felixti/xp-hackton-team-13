@@ -3,7 +3,7 @@ name: Deplpy Hacka13 Api
 on: [push]
 
 env:
-  AZURE_FUNCTIONAPP_NAME: hacka13api
+  AZURE_FUNCTIONAPP_NAME: azfhacka13
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'
   PYTHON_VERSION: '3.7'
 
