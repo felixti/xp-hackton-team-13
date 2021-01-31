@@ -19,7 +19,7 @@ Para o desenvolvimento existem os seguintes requerimentos:
 
 `git clone https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13.git`
 
-2. Copiar a estrutura de configurações do `local.settings.json.example` para o seu `local.settings.json` local
+2. Copiar a estrutura de configurações do `local.settings.json.example` para o seu `local.settings.json` local substituindo os respectivos valores das variáveis
 
 3. A partir do terminal, execute: 
 
