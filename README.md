@@ -72,3 +72,17 @@ Essa collection substitui o ServiceNow, de maneira que nos permite testar o cód
 
 ### Configuração da instância do ServiceNow
 Visite nossa [wiki](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/wiki) para saber mais sobre detalhes de implementação e como configurar sua instância do ServiceNow.
+
+### Useful resources for development
+**ServiceNow**
+* [webhooks/outbound integration](https://community.servicenow.com/community?id=community_search&q=Calling%20external%20webhook%2FAPI%20from%20service%20now)
+* [table API](https://developer.servicenow.com/dev.do#!/reference/api/quebec/rest/c_TableAPI)
+
+**Microsoft**
+* [azure templates/deploy github actions](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-github-actions)
+* [azure cli](https://docs.microsoft.com/en-us/cli/azure/functionapp/config/appsettings?view=azure-cli-latest)
+* [github actions](https://docs.github.com/en/actions/learn-github-actions)
+* [azure storage table with python](https://github.com/Azure-Samples/storage-table-python-getting-started/blob/master/table_basic_samples.py)
+
+**Infrastructure as Code**
+* [Farmer](https://compositionalit.github.io/farmer/)
