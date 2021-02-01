@@ -86,3 +86,11 @@ Visite nossa [wiki](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/wi
 
 **Infrastructure as Code**
 * [Farmer](https://compositionalit.github.io/farmer/)
+
+## Contribuidores
+* [Bruno Casarotti](https://www.linkedin.com/in/bruno-grisolia-casarotti-1b5b4128/)
+* [Cícero Oliveiro](https://www.linkedin.com/in/c%C3%ADcero-da-silva-oliv%C3%A9rio-46649473/)
+* [Déberson de Paula](https://www.linkedin.com/in/deberson-de-paula-15b43623/)
+* [Egina Gamell](https://www.linkedin.com/in/eginagamell/)
+* [Felipe Felix](https://www.linkedin.com/in/feflipeafelix/)
+* [Jean Lopes](https://www.linkedin.com/in/jean-lima-lopes-5a241245/)
