@@ -1,15 +1,15 @@
 ![Hacka_13 build](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/workflows/Deplpy%20Hacka13%20Api/badge.svg)
 
 # XP Hackathon <small>Team 13</small>
-<img src="https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/blob/main/Diagram/logo.png" alt="logo"/>
+<img src="./Diagram/logo.png" alt="logo"/>
 
 ## Motivação
 O objetivo deste projeto é automatizar o processo abertura de janela de manutenção no Zabbix, tendo como gatilho a aprovação de uma gmud no ServiceNow.
 
-<img src="https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/blob/main/Diagram/TechDay.png" alt="drawing" width="1000"/>
+<img src="./Diagram/TechDay.png" alt="drawing" width="1000"/>
 
 ## Getting started
-### Desenvolvimento
+## Desenvolvimento
 Para o desenvolvimento existem os seguintes requerimentos:
 - Azure Functions Core Tools 3
 - Python 3.7+ com pip
@@ -22,7 +22,7 @@ Para o desenvolvimento existem os seguintes requerimentos:
 
 A imagem abaixo ilustra o fluxo de desenvolvimento
 
-<img src="https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/blob/main/Diagram/hacka13_dev_flow.svg" alt="drawing" width="1000"/>
+<img src="./Diagram/hacka13_dev_flow.svg" alt="drawing" width="1000"/>
 
 ### Como desenvolver
 1. Baixe o projeto para seu computador
@@ -62,16 +62,23 @@ For detailed output, run func with --verbose flag.
 
 6. No exemplo acima, foi criado o seguinte enpoint `http://localhost:7071/api/Hacka13HubConnector` onde é possível realizar a ativação da azure function, este é o endereço que deve ser chamado caso o desenvolvedor queira testa-la.
 
-### Teste
-Existe uma collection que pode ser importada para dentro da ferramenta Postman: `test/HackathonNOC.postman_collection.json`.
+### Executando a solução 
+
+#### Mock Requisição Service Now
+Disponibilizamos uma collection do postman que pode ser importada para dentro da ferramenta: `test/HackathonNOC.postman_collection.json`.
 
 Essa collection substitui o ServiceNow, de maneira que nos permite testar o código de uma maneira mais simples sem depender de uma instância do ServiceNow corretamente configurada e rodando. Essa chamada basicamente simula o evento de "mudança aprovada" que é o gatilho para a criação da janela de manutenção no Zabbix.
 
->Devido as limitações de segurança e permissionamento em máquinas onde usário não possui privilégios elevados não conseguimos integrar o sandbox do service now com a api em desenvolvimento local, pois o ServiceNow necessita de uma url para o seu webhook. Infelizmente o uso de ferramentas que favorecem este teste são bloqueados (ngrok, localtunnel).
+>Devido as limitações de segurança e permissionamento em máquinas onde usário não possui privilégios elevados não conseguimos integrar o sandbox do service now com a api em desenvolvimento local, pois o ServiceNow necessita de uma publica url para o seu webhook. Infelizmente o uso de ferramentas (ngrok, localtunnel) que favorecem este testes são bloqueadas.
 
+## Arquitetura de solução
+Visite nossa [wiki](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/wiki/Arquitetura) para saber mais sobre detalhes da arquitetura.
 
-### Configuração da instância do ServiceNow
-Visite nossa [wiki](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/wiki) para saber mais sobre detalhes de implementação e como configurar sua instância do ServiceNow.
+## Integrando e Configurando instância de desenvolvimento ServiceNow
+Visite nossa [wiki](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/wiki/ServiceNow) para saber mais sobre detalhes de implementação e como configurar sua instância do ServiceNow.
+
+## Mais sobre integração com Zabbix
+Visite nossa [wiki](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/wiki/Zabbix-API) para saber mais sobre detalhes do zabbix.
 
 ### Links úteis para desenvolvimento
 **ServiceNow**
@@ -86,3 +93,11 @@ Visite nossa [wiki](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/wi
 
 **Infrastructure as Code**
 * [Farmer](https://compositionalit.github.io/farmer/)
+
+## Contribuidores
+* [Bruno Casarotti](https://www.linkedin.com/in/bruno-grisolia-casarotti-1b5b4128/)
+* [Cícero Olivério](https://www.linkedin.com/in/c%C3%ADcero-da-silva-oliv%C3%A9rio-46649473/)
+* [Déberson de Paula](https://www.linkedin.com/in/deberson-de-paula-15b43623/)
+* [Egina Gamell](https://www.linkedin.com/in/eginagamell/)
+* [Felipe Felix](https://www.linkedin.com/in/feflipeafelix/)
+* [Jean Lopes](https://www.linkedin.com/in/jean-lima-lopes-5a241245/)
