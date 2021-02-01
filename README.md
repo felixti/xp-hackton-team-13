@@ -73,7 +73,7 @@ Essa collection substitui o ServiceNow, de maneira que nos permite testar o cód
 ### Configuração da instância do ServiceNow
 Visite nossa [wiki](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/wiki) para saber mais sobre detalhes de implementação e como configurar sua instância do ServiceNow.
 
-### Useful resources for development
+### Links úteis para desenvolvimento
 **ServiceNow**
 * [webhooks/outbound integration](https://community.servicenow.com/community?id=community_search&q=Calling%20external%20webhook%2FAPI%20from%20service%20now)
 * [table API](https://developer.servicenow.com/dev.do#!/reference/api/quebec/rest/c_TableAPI)
