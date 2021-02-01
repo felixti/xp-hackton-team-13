@@ -101,4 +101,3 @@ Visite nossa [wiki](https://github.com/XP-Tech-Hackathon/xp-hackathon-team-13/wi
 * [Egina Gamell](https://www.linkedin.com/in/eginagamell/)
 * [Felipe Felix](https://www.linkedin.com/in/feflipeafelix/)
 * [Jean Lopes](https://www.linkedin.com/in/jean-lima-lopes-5a241245/)
-* [Jean Lopes](https://www.linkedin.com/in/jean-lima-lopes-5a241245/)
